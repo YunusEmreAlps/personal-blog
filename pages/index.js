@@ -61,7 +61,7 @@ const Home = ({ posts }) => (
           <div> </div> {/* photo */}
           <div className="border border-dark"> 
             <Link href={post.slug}>
-              <h1 className="text-left display-4 p-2" id="posttitle">{post.title}</h1>
+              <h1 className="text-left p-2" id="posttitle">{post.title}</h1>
             </Link>
             <div className="text-left p-2"> <ReactMarkdown source={post.details.substring(0,150)} /></div>
             <a className="text-left p-2" href={post.slug}> <span className="fa">Re</span>ad More</a><br/><br/>         
@@ -133,8 +133,12 @@ const Home = ({ posts }) => (
         background-color: #00b489;
         color: white;
       }
+	  #posttitle{
+		  font-weight:300;
+	  }
       #posttitle:hover {
         color:#6f2232;
+		font-weight:300;
       }
       .blog-date {
         text-align: right;

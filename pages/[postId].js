@@ -60,7 +60,7 @@ const BlogPost = ({ post }) => (
           <div> </div> {/* photo */}
           <div className="border border-dark"> 
             <Link href={post.slug}>
-              <h1 className="text-left display-4 p-2">{post.title}</h1>
+              <h1 className="text-left p-2">{post.title}</h1>
             </Link>
             <div className="text-left p-2"> <ReactMarkdown source={post.details} /></div>    
           </div> {/* text*/}
@@ -138,6 +138,9 @@ const BlogPost = ({ post }) => (
         background-repeat:no-repeat;
         background-size:cover;
       }
+	  h1{
+		  font-weight:300;
+	  }
     `}</style>
   </div>
 );
