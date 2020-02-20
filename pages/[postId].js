@@ -137,6 +137,9 @@ const BlogPost = ({ post }) => (
         background-attachment:fixed;
         background-repeat:no-repeat;
         background-size:cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
       }
 	  h1{
 		  font-weight:300;

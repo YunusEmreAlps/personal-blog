@@ -130,6 +130,9 @@ const Home = ({ posts }) => (
         background-attachment:fixed;
         background-repeat:no-repeat;
         background-size:cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
       }
     `}</style>
   </div>
