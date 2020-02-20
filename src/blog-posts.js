@@ -13,13 +13,13 @@ export const getPosts = () => {
       date: "5 Aralık 2019"
     },
     {
-      title: "Who Am I",
+      title: "What does git mean in programming ?",
       slug: "ornek-yazi",
       details: require("./posts/ornek-yazi.md").default,
       date: "3 Aralık 2019"
     },
     {
-      title: "Hello World!",
+      title: "HTML5!",
       slug: "htmltutorial",
       details: require("./posts/htmltutorial.md").default,
       date: "1 Aralık 2019"

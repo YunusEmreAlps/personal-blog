@@ -43,7 +43,7 @@ const BlogPost = ({ post }) => (
       {/* Social link */}
       <div className="container">
         <div className="hero">
-          <h1 className="text-center text-white display-1">{post.title}</h1>
+          <h1 className="text-center text-white display-4">{post.title}</h1>
             <div className="row d-flex justify-content-center">
               <a href="https://github.com/YunusEmreAlps"><span className="fa fa-github"></span></a>
               <a href="https://www.instagram.com/yunusemrealpu/"><span className="fa fa-instagram" id="ins"></span></a>
