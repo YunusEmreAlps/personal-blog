@@ -32,7 +32,7 @@ class Form extends Component {
         });
               
         //open the request with the verb and the url
-        xhr.open('GET', 'http://yunusemrealpuu.herokuapp.com//contact.php?sendto=' + email +  // HATALI KISIM !
+        xhr.open('GET', 'http://yunusemrealpuu.herokuapp.com/contact.php?sendto=' + email +  // HATALI KISIM !
                                 '&subject=' + subject +  
                                 '&name=' + name + 
                                 '&message=' + message);
