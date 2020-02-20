@@ -30,9 +30,9 @@ class Form extends Component {
                 emailStatus: xhr.responseText
             });
         });
-
-        // open the request with the verb and the url
-        xhr.open('GET', 'http://localhost/contact.php?sendto=' + email +  // HATALI KISIM !
+              
+        //open the request with the verb and the url
+        xhr.open('GET', 'http://yunusemrealpuu.herokuapp.com//contact.php?sendto=' + email +  // HATALI KISIM !
                                 '&subject=' + subject +  
                                 '&name=' + name + 
                                 '&message=' + message);
@@ -57,7 +57,7 @@ class Form extends Component {
                 <div className="container" id="cform" onSubmit={this.submitForm}>            
                     {emailStatus ? emailStatus : null}
                     <h1 className="text-center display-4">Get Contact</h1> {/* title */}  
-                     <form action="contact.php">
+                     <form>
                         <div className="form-group">
                             <label htmlFor="exampleFormControlInput1">Full name</label>
                             <input className="form-control" type="text" value={name} onChange={this.handleCHange('name')} placeholder="Full name" required></input>
