@@ -20,8 +20,8 @@ export const getPosts = () => {
     },
     {
       title: "Hello World!",
-      slug: "merhaba",
-      details: require("./posts/merhaba.md").default,
+      slug: "htmltutorial",
+      details: require("./posts/htmltutorial.md").default,
       date: "1 Aralık 2019"
     }
    

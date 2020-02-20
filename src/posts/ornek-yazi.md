@@ -1,31 +1,41 @@
-I'm a software engineer and my second year at NE university. Technology has always been an interest in my life from the first generations iPhone .Today, I am interested in discovering any opportunities that are focused on business, web, robotic technologies, and artificial intelligence. Last Summer I went abroad for my language and my job. I want to be a good computer engineer and everyday improve myself.
+- Git : distributed version control system for tracking changes in source code during software development .
+- It’s designed for coordinating work among programmers , but it can be used to track changes in any set of files .
+- Free and open source
+- GitHub, GitLab, etc.
 
-Hopefully ,this profile interesting for you :
+## SETUP
+- git config — global user.name “firstname lastname”
+- git config — global user.email “valid-email”
+- git config — global color.ui auto
+- pwd : print working directory
+- cd : change directory
+- ls : lists
+- cd .. : to move one directory upwards
+- clear : clean the terminal or ( CTRL + l )
 
-**- My Programming Skills :**
+## SETUP & INIT
+- git init : initialize an existing directory as a Git repository
+- git clone [url]: retrieve an entire repository from a hosted location via URL
+- ls -a : show git files
 
-1. C Programming Language -> (CodeBlocks)
-2. Java -> (Eclipse and IntelliJ)
-3. C++ -> (DevC++ and Qt)
-4. Python -> (Mostly Spyder ,Pycharm)
-5. HTML5 & CSS3 (Atom , Visual Studio Code and Notepad++)
+**Output:**
+./
+../
+.git/
 
-**- My Goal :**
+- git add . : add all file as it looks now to your next commit (stage)
+- git commit -m “ Message “ : commit your staged content as a new commit snapshot
+- git log : show all commits in the current branch’s history
+- git status : The git status command displays the state of the working directory and the staging area . /// very important
 
-- There are many projects in my mind and I would like show people .
+## SHARE & UPDATE :
+1. git remote add origin[URL] : add a git URL as an origin
+2. git push -u origin master : Transmit local branch commits to the remote repository branch
+3. git pull : fetch and merge any commits from the tracking remote branch
+4. git merge branch_name : merge a remote branch into your current branch to bring it up to date
 
-**- Language :**
-
-1. Turkish (Native)
-2. English ( Level B2 )
-3. German  ( Level A2 )
-4. Spanish ( Level A1 )
-
-**- Instrument :**
-
-1. Guitar
-2. Violin
-
-**- Sports :**
-
-1. Basketball
+-Gitignore : Specifies intentionally untracked files to ignore
+- cat >> .gitignore
+- cat .gitignore
+- FileName/*
+- !FileName / Dosya1.html
