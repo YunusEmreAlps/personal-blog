@@ -17,20 +17,20 @@ const Home = ({ posts }) => (
 
     {/* Navigation bar */}
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark" id="brand">
-      <a className="navbar-brand" href="http://localhost:3000">Yunus Emre Alpu</a>
+      <a className="navbar-brand" href="http://yunusemrealpuu.herokuapp.com">Yunus Emre Alpu</a>
       <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
           <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarMenu">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link active" href="http://localhost:3000">Home</a>
+            <a className="nav-link active" href="http://yunusemrealpuu.herokuapp.com">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="http://localhost:3000/about">About</a>
+            <a className="nav-link" href="http://yunusemrealpuu.herokuapp.com/about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="http://localhost:3000/contact">Contact</a>
+            <a className="nav-link" href="http://yunusemrealpuu.herokuapp.com/contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -163,7 +163,7 @@ const Home = ({ posts }) => (
 
 Home.getInitialProps = async ({ req }) => {
   // TODO: aşağıdaki satırda bulunan adresi kendi sunucu adresinle değiştirmelisin
-  const res = await fetch("http://localhost:3000/api/posts");
+  const res = await fetch("http://yunusemrealpuu.herokuapp.com/api/posts");
   const json = await res.json();
   return { posts: json.posts };
 };
