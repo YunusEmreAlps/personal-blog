@@ -1,0 +1,422 @@
+@media screen and (min-width:1366px)
+{
+  .textim{
+    background-color: red;
+  }
+  .container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+      
+  .hero {
+    text-align: center;
+    margin: 96px 0;
+  }
+
+  .social-link {
+    margin-right: 12px;
+    font-size: 36px;
+  }
+
+  .hero-title {
+    font-family: Copperplate Gothic Light;
+    font-size: 60px;
+    color: #6f2232;
+  }
+      
+  .blog {
+    background-color:transparent;
+    margin-left: 48px;
+    margin-right: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .blog-title {        
+    padding-top: 20px;
+    margin-left: 20px;
+    text-decoration:none;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #24292e;
+  }
+
+  .blog-text{
+        
+    font-family: Arial;
+    font-style: normal;
+    margin-left: 20px;
+  }
+
+  .blog-date {
+    text-align: right;
+    color: #cccccc;
+    margin: 12px 12px 12px 16px;
+  }
+      
+  #more {
+    display:none;
+  }
+
+  button {
+
+    display: inline-block;
+    text-align:center;
+    font-family: Verdana,sans-serif;
+    font-size: 24px;
+        
+    width: 144px;
+    height: 48px;
+        
+    color: #000;
+    background-color: white;
+
+    margin: 0px;
+    padding: 0px;
+    border:1px solid #cccccc;
+  }
+
+  button:hover{
+    background-color:#ccc;
+  }
+    
+  a {
+    color: #35459e;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width:960px) and (max-width:1365px)
+{  
+  .container {
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+  } 
+        
+  .hero {
+    text-align: center;
+    margin: 80px 0;
+  }
+
+  .social-link {
+    margin-right: 10px;
+    font-size: 30px;
+  }
+
+  .hero-title {
+    font-family: Copperplate Gothic Light;
+	  font-size: 50px;
+	  color: #24292e;
+  }
+
+  .blog{
+    margin-left:40px;
+    margin-right:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+    .blog-title {        
+    padding-top: 16px;
+    margin-left: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #24292e;
+  }
+
+  .blog-text{
+    font-family:"Arial";
+    margin-left:16px;
+  }
+
+  .blog-date {
+    text-align: right;
+    color: #cccccc;
+    margin: 10px 0 20px 0;
+  }
+
+  #more {
+    display:none;
+  }
+
+  button {
+
+    display: inline-block;
+    text-align:center;
+    font-family: Verdana,sans-serif;
+    font-size: 20px;
+        
+    width: 120px;
+    height: 40px;
+        
+    color: #000;
+    background-color: white;
+
+    margin: 0px;
+    padding: 0px;
+    border:1px solid #cccccc;
+  }
+
+  button:hover{
+    background-color:#ccc;
+  }
+
+  a {
+    color: #35459e;
+    text-decoration: none;
+  }
+}
+    
+@media screen and (min-width:720px) and (max-width:959px)
+{
+  .container {
+    max-width: 959px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 64px 0;
+  }
+
+  .social-link {
+    margin-right: 8px;
+    font-size: 24px;
+  }
+
+  .hero-title {
+    font-family: Copperplate Gothic Light;
+	  font-size: 40px;
+	  color: #24292e;
+  }
+
+  .blog{
+    margin-left:32px;
+    margin-right:16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .blog-title {        
+    padding-top: 12px;
+    margin-left: 12px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    color: #24292e;
+  }
+
+  .blog-text{
+        
+    font-family:"Arial";
+    margin-left:12px;
+  }
+
+  .blog-date {
+    text-align: right;
+    color: #cccccc;
+    margin: 8px 0 16px 0;
+  }
+
+  #more {
+    display:none;
+  }
+
+  button {
+
+    display: inline-block;
+    text-align:center;
+    font-family: Verdana,sans-serif;
+    font-size: 16px;
+        
+    width: 96px;
+    height: 32px;
+           
+    color: #000;
+    background-color: white;
+
+    margin: 0px;
+    padding: 0px;
+    border:1px solid #cccccc;
+  }
+
+    button:hover{
+      background-color:#ccc;
+    }
+      
+  a {
+    color: #35459e;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width:719px)
+{
+  .container {
+    max-width: 719px;
+    width: 100%;
+    margin: 0 auto;
+  }
+        
+  .hero {
+    text-align: center;
+    margin: 48px 0;
+  }
+
+  .social-link {
+    margin-right: 6px;
+    font-size: 18px;
+  }
+
+  .hero-title {
+    font-family: Copperplate Gothic Light;
+	  font-size: 30px;
+	  color: #24292e;
+  }
+
+  .blog {
+    margin-left:24px;
+    margin-right:12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .blog-title {        
+    padding-top: 8px;
+    margin-left: 8px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #24292e;
+  }
+
+  .blog-text{
+    font-family:"Arial";
+    margin-left:8px;
+  }
+
+  .blog-date {
+    text-align: right;
+    color: #cccccc;
+    margin: 6px 0 12px 0;   
+  }    
+
+  #more {
+    display:none;
+  }
+
+  button {
+    display: inline-block;
+    text-align:center;
+    font-family: Verdana,sans-serif;
+    font-size: 16px;
+        
+    width: 96px;
+    height: 32px;
+        
+    color: #000;
+    background-color: white;
+
+    margin: 0px;
+    padding: 0px;
+    border:1px solid #cccccc;
+  }
+
+  button:hover{
+    background-color:#ccc;
+  }
+
+  a {
+    color: #35459e;
+    text-decoration: none;
+  }
+}
+    
+@media screen and (min-width:320px) and (max-width:479px)
+{
+  .container {
+    max-width: 479px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero {
+    text-align: center;
+    margin: 32px 0;
+  }
+
+  .social-link {
+    margin-right: 4px;
+    font-size: 12px;
+  }
+
+  .hero-title {
+    font-family: Copperplate Gothic Light;
+	  font-size: 20px;
+	  color: #24292e;
+  }
+      
+  .blog{
+    margin-left:16px;
+    margin-right:8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .blog-title {        
+    padding-top: 4px;
+    margin-left: 4px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size:20px;
+    color: #24292e;
+  }
+
+  .blog-text{
+        
+    font-family:"Arial";
+    margin-left:4px;
+  }
+
+  .blog-date {
+    text-align: right;
+    color: #cccccc;
+    margin: 4px 0 8px 0;
+  }
+
+  #more {
+    display:none;
+  }
+
+  button {
+
+    display: inline-block;
+    text-align:center;
+    font-family: Verdana,sans-serif;
+    font-size: 16px;
+        
+    width: 72px;
+    height: 24px;
+        
+    color: #000;
+    background-color: white;
+
+    margin: 0px;
+    padding: 0px;
+    border:1px solid #cccccc;
+  }
+
+  button:hover{
+    background-color:#ccc;
+  }
+      
+  a {
+    color: #35459e;
+    text-decoration: none;
+  }
+}
