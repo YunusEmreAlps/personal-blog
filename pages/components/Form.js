@@ -57,7 +57,7 @@ class Form extends Component {
                 <div className="container" id="cform" onSubmit={this.submitForm}>            
                     {emailStatus ? emailStatus : null}
                     <h1 className="text-center display-4">Get Contact</h1> {/* title */}  
-                     <form>
+                     <form action="contact.php">
                         <div className="form-group">
                             <label htmlFor="exampleFormControlInput1">Full name</label>
                             <input className="form-control" type="text" value={name} onChange={this.handleCHange('name')} placeholder="Full name" required></input>
