@@ -29,7 +29,7 @@ const Home = ({ posts }) => (
             <a className="nav-link active" href="http:/yunusemrealpuu.herokuapp.com/about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="http://yunusemrealpuu.herokuapp.comcontact">Contact</a>
+            <a className="nav-link" href="http://yunusemrealpuu.herokuapp.com/contact">Contact</a>
           </li>
         </ul>
       </div>
